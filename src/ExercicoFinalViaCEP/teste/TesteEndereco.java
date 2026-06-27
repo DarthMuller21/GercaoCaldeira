@@ -37,7 +37,8 @@ public class TesteEndereco {
             System.out.println(json);
 
             Gson gson = new Gson();
-            EnderecoViaCEP enderecoViaCEP = gson.fromJson(json, EnderecoViaCEP.class);
+            End
+            enderecoViaCEP enderecoViaCEP = gson.fromJson(json, EnderecoViaCEP.class);
             System.out.println(enderecoViaCEP);
             Endereco meuEndereco = new Endereco(enderecoViaCEP);
             System.out.println("Complete seu endereco com o numero:");
